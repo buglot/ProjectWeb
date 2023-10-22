@@ -68,3 +68,13 @@ func Kick(c *gin.Context) {
 	c.JSON(200, gin.H{"data": "susees"})
 
 }
+
+// func ShareKeyGetDel(c *gin.Context) {
+// 	d := c.PostForm("d")
+// 	codeKey := c.PostForm("codeKey")
+// 	switch(d){
+// 	case "get":
+// 	case "del":
+
+// 	}
+// }
